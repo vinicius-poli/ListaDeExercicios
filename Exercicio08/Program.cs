@@ -15,7 +15,7 @@ Console.WriteLine("Digite o número a ser verificado: ");
 int numero = Convert.ToInt32(Console.ReadLine());
 
 for (i = numero; i > 0; i--)
-//LEMBRAR: o segundo parâmetro é a condição para SAIR do laço e não para se manter dentro dele
+//LEMBRAR: o segundo parâmetro é a condição para SE MANTER no laço e não para SAIR!
 {
     if (numero % i == 0)
     {
